@@ -2,9 +2,10 @@ module.exports = {
   siteMetadata: {
     title: 'Catman Level Up Blog',
     description: 'A new blog!',
+    siteUrl: 'https://gracious-banach-c7138c.netlify.com',
   },
   plugins: [
-    //'gatsby-plugin-sitemap',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
